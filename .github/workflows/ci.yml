@@ -13,4 +13,5 @@ jobs:
         run: |
           echo "Running test script..."
           chmod +x ./test.sh
+          export TERM=xterm-color
           ./test.sh
