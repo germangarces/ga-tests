@@ -468,6 +468,8 @@ function parse_params() {
                 ;;
         esac
     done
+
+    export TERM=xterm-color
 }
 
 # DESC: Main control flow
