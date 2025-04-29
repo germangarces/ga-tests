@@ -1,0 +1,13 @@
+name: Test colors
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Launch shell script
+        run: |
+          echo "Running test script..."
+          chmod +x ./test.sh
+          ./test.sh
